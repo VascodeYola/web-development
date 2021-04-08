@@ -1,0 +1,166 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+html
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body
+{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.photo
+{
+    height: 350px;
+    width: 330px;
+    margin: 100px 0px 0px 28px;
+    border: 1px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    float: left;
+}
+
+.quote
+{
+    width: 563px;
+    margin: 150px 0px 0px 59px;
+    float: left;
+    background-image: url(../images/quote.png);
+    background-repeat:  no-repeat;
+}
+
+.quote__text
+{
+   margin: 70px 0px 0px 60px;
+   color: #848484;
+   line-height: 42px;
+   font-size: 28px;
+   font-family:  Georgia, serif;
+   font-style: italic;
+}
+
+.quote__author
+{
+    margin: 11px 0px 0px 64px;
+    color: #333333;
+    font: 600 16px/22px 'Open Sans', sans-serif; 
+}
+
+.clear
+{
+    clear: left;
+}
+
+.sidebar
+{
+    
+    float: left;
+    width: 300px;
+}
+
+
+.sidebar__title_favorite-writer
+{
+    margin: 42px 0px 0px 29px;
+    color: #15a98c;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 600; 
+}
+
+.sidebar__title_favorite-movies
+{
+    margin: 40px 0px -1px 29px;
+    color: #15a98c;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 600;     
+}
+
+.sidebar__list
+{
+    margin: 13px 0px 0px 0px;
+    padding: 0px 0px 0px 50px;;
+    color: #555555;
+    line-height: 36px;
+    font-size: 19px;
+    font-family: Georgia, serif;
+}
+
+.main-content
+{
+    width: 700px;
+    float: left;
+}
+
+.main-content__title
+{
+    margin: 31px 0px 0px 123px;
+    
+    color: #333333;
+    font-size: 48px;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.main-content__title::after
+{
+    content: '';
+    display: block;
+    width: 59px;
+    height: 6px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #45c3aa;
+    margin: 19px 0px 0px -5px;
+}
+
+.main-content__text
+{
+   color: #555555;
+   line-height: 32px;
+   font-size: 19px;
+   font-family: Georgia, serif;
+   margin: 43px 66px 0px 119px;
+}
+
+.main-content__title_regular
+{
+    margin: 38px 0px 0px 117px;
+    font-weight: 400; 
+    font-size: 36px;
+}
+
+.main-content__text_hobby
+{
+    color: #555555;
+    line-height: 32px;
+    font-size: 19px;
+    font-family: Georgia, serif;
+    margin: 12px 14px 46px 119px;
+    padding: 0px;    
+}
+
+.text__link
+{
+    margin: 0px 0px 0px 119px;
+    color: #15a98b;
+    font-size: 19px;
+    font-family:  Georgia, serif;
+}
+
+.text__link::after
+{
+    content: '\2192';
+}
+
+.colortext
+{
+    color: #ee0707;
+}
