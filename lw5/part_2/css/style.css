@@ -1,0 +1,494 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('../fonts/Open_Sans/css2?family=Open+Sans');
+
+.content-center
+{    
+    margin: 0 auto;
+}
+
+.menu
+{
+    max-width: 945px;
+    margin: 0 auto 0; 
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+.menu__item
+{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #333333;
+    font: 19px Georgia, serif;
+}
+
+.menu__item_about
+{
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 21px 15px 17px;
+    background-color: #15a98c;
+ 
+}
+
+.menu__item_about-text
+{
+    margin: 0 0 0 12px;
+}
+
+.menu__item_hobby
+{
+    padding: 15px 18px 15px 19px;
+}
+
+.menu__item_hobby-text
+{
+    margin: 0 0 0 12px;
+}
+
+.menu__item_movies
+{
+    padding: 15px 20px 15px 21px;
+}
+
+.menu__item_movies-text
+{
+    margin: 0 0 0 12px;
+}
+
+.menu__item_about-text::before
+{
+    position: relative;
+    top: 1px;
+    left: -9px;
+    content: url(../images/about_me_icon.png);
+}
+
+.menu__item_hobby-text::before
+{
+    position: relative;
+    top: 2px;
+    left: -10px;
+    content: url(../images/hobby_icon.png);
+}
+
+.menu__item_movies-text::before
+{
+    position: relative;
+    top: 1px;
+    left: -11px;
+    content: url(../images/video_icon.png);
+}
+
+.link
+{
+    background: #ee0707;
+    margin: 0 0 0 100px;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+.top-background
+{
+    padding: 200px 0;
+    background-color: #848484;
+    background-image: url(../images/top_background.jpg);
+}
+
+.main-block
+{
+    max-width: 1000px;
+    margin: -192px auto 0 auto;
+}
+
+.main-block-top
+{
+    margin: 0 20px 0 27px;
+}
+
+.main-block-top__image
+{
+    height: 350px;
+    width: 330px;
+   
+    border: 1px solid white;
+    border-radius: 10px;
+    float: left;
+}
+
+.main-block-top__text
+{
+    margin: 26px 0 0 62px;
+    max-width: 505px;
+    color: #fff;
+    float: left;
+}
+
+.main-block-top__text_qoute
+{
+    font: 28px/42px Georgia, serif;
+    font-style: italic;
+}
+
+.main-block-top__text_author
+{
+    display: block;
+    margin: 12px 0 0 3px;
+    font: 600 16px/22px 'Open Sans', sans-serif; 
+}
+
+.title
+{
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+}
+
+.main-block-top__title
+{
+    margin: 80px 0 0 1px;
+    color: #333333;
+    font: 700 48px 'Open Sans', sans-serif;
+}
+
+.main-block-top__title::after
+{
+    content: '';
+    display: block;
+    width: 59px;
+    height: 6px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #45c3aa;
+    margin: 19px 0 0 -5px;
+}
+
+.clear
+{
+    display: block;
+    clear: left;
+}
+
+.main-block-sidebar
+{
+    float: left;
+    max-width: 300px;
+    margin: 0 20px 0 27px;
+}
+
+.main-block-sidebar__title_favorite-writer
+{
+    margin: 42px 0 0 1px;
+    color: #15a98c;
+    font: 600 24px 'Open Sans', sans-serif;
+}
+
+.main-block-sidebar__title_favorite-movies
+{
+    margin: 40px 0 0 1px;
+    color: #15a98c;
+    font: 600 24px 'Open Sans', sans-serif;
+}
+
+.main-block-sidebar__list
+{
+    margin: 13px 0 0 0;
+    padding: 0 0 0 22px;;
+    color: #555555;
+    font: 19px/36px Georgia, serif;
+}
+
+.main-block-description
+{
+    width: 570px;
+    float: left;
+    margin: 0 0 0 122px;
+}
+
+.main-block-description__text
+{
+    color: #555555;
+    font: 19px/32px Georgia, serif;
+    margin: 7px 0 0 0;
+}
+
+.main-block-description__title
+{
+    margin: 38px 0 0 0;
+    font-weight: 400; 
+    font-size: 36px;
+}
+
+.main-block-description__text_hobby
+{
+    color: #555555;
+    font: 19px/32px Georgia, serif;
+    margin: 12px 14px 46px 0;
+    padding: 0;  
+}
+
+.main-block-description__link
+{
+
+    text-decoration: none;
+    color: #15a98b;
+    font: 19px Georgia, serif;
+}
+
+.main-block-description__link::after
+{
+    content: '';
+    display: block;
+    width: 115px;
+    height: 2px;
+    background-color: #45c3aa;
+    margin: -2px 0 0 0;
+}
+
+.main-block-description__link-text::after
+{
+    content: '\2192';
+}
+
+.movies-background
+{
+    margin: 60px 0 0 0;
+    padding: 1px 0 30px 0;
+    background-color: #f9f9f9;
+}
+
+.movies
+{
+    max-width: 1216px;
+    margin: 0 auto;
+}
+
+.movies__title
+{
+    margin: 33px 0 0 17px;
+    font-weight: 400; 
+    font-size: 36px;
+}
+
+.movies__container
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 0 0 15px;
+}
+
+.movies__item
+{
+    max-width: 285px; 
+    margin: 29px 0 0 0;
+}
+
+.movies__item-image
+{
+    max-width: 285px;
+    max-height: 190px;
+    border: 1px solid white;
+    border-radius: 10px;    
+}
+
+.movies__item-title
+{
+    margin: 19px 0 0 0;
+    color: #333333;
+    font: 700 22px 'Open Sans', sans-serif;
+}
+
+.movies__item-annotation
+{
+    color: #555555;
+    font: 16px/28px Georgia, serif;
+    margin: 18px 0 0 1px;
+    padding: 0 0 0 0;
+}
+
+.movies__button
+{
+    display: block;
+    margin: 53px  auto 0 auto;
+    max-width: 110px;
+    padding: 14px 55px;
+    background-color: #15a98b;
+    border: 1px solid #15a98b;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.movies__button-text
+{
+    color: white;
+    font: 19px Georgia;
+}
+
+.form
+{
+    max-width: 1200px;
+   /* margin: 71px auto 0;*/
+    margin: 71px auto 0 78px;
+}
+
+.form__title
+{
+    text-align: center;
+    vertical-align: middle;
+    
+    color: #333333;    
+    font: 300 36px 'Open Sans', sans-serif;
+}
+
+.form__title::before
+{
+    position: relative;
+    content: '';
+    display: inline-block;
+    width: 204px;
+    height: 1px;
+    background-color: #c9c9c9;
+    vertical-align: middle;
+    text-align: left;
+    left: -25px;
+    top: -3px;
+ 
+}
+
+.form__title::after
+{
+    position: relative;
+    content: '';
+    display: inline-block;
+    width: 204px;
+    height: 1px;
+    background-color: #c9c9c9;
+    vertical-align: middle;
+    text-align: right;
+    right: -25px;
+    top: -3px;
+
+}
+
+.form__item-title
+{
+    color: #333333;
+    font: 400 20px 'Open Sans', sans-serif;    
+}
+
+.form__item-title_name
+{
+    margin: 67px 0 0 334px;  
+}
+
+.form__item-title_email
+{    
+    margin: 27px 0 0 334px;  
+}
+
+.form__item-title_from
+{    
+    margin: 28px 0 0 334px;  
+}
+
+
+.form__item-title_gender
+{    
+    margin: 43px 0 0 0;  
+}
+
+.form__item
+{    
+    width: 510px;
+    height: 45px;
+    border: 2px solid #c9c9c9;
+    border-radius: 2px;
+    outline: none; 
+    margin: 6px 0 0 0;
+    padding: 0 13px;
+    color: #c9c9c9;
+    font: 300 16px 'Open Sans', sans-serif;       
+}
+
+.form__country
+{
+    width: 539px;
+    height: 49px;
+    margin: 8px 0 0 0;
+    font-size: 18px;
+}
+
+.form__item:focus
+{
+    border-color: #15a98b;
+}
+
+.form__gender-item
+{
+    margin: 18px 0 0 0;
+}
+
+.form__gender-item_female
+{
+    margin: 0 0 0 35px;
+}
+
+.form__gender-item-text
+{
+    font-size: 18px;
+    margin: 0 0 0 3px;
+}
+
+.form__item-title_message
+{
+    margin: 40px 0 0 334px;
+}
+
+.form__message
+{
+    width: 510px;
+    height: 121px;
+    padding: 13px 13px;
+}
+
+.colortext
+{
+    color: #ee0707;
+}
+
+.form__button
+{
+    margin: 43px auto 0 335px;
+    padding: 14px 61px;
+    background-color: #15a98b;
+    border: 1px solid #15a98b;
+    border-radius: 5px;
+    color: #ffffff;
+    font: 19px Georgia;
+}
+
+.footer
+{    
+    margin: 49px 0 0 0;
+    padding: 23px 0 16px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.footer__text
+{
+    margin: 0 6px 0 0;
+    color: #555555;
+    font: 16px Georgia;
+}
